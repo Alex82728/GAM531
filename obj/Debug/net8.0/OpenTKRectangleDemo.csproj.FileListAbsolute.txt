@@ -28,3 +28,4 @@ C:\GAM531\OpenTKRectangleDemo\obj\Debug\net8.0\refint\OpenTKRectangleDemo.dll
 C:\GAM531\OpenTKRectangleDemo\obj\Debug\net8.0\OpenTKRectangleDemo.pdb
 C:\GAM531\OpenTKRectangleDemo\obj\Debug\net8.0\OpenTKRectangleDemo.genruntimeconfig.cache
 C:\GAM531\OpenTKRectangleDemo\obj\Debug\net8.0\ref\OpenTKRectangleDemo.dll
+C:\GAM531\OpenTKRectangleDemo\obj\Debug\net8.0\OpenTKRectangleDemo.sourcelink.json
