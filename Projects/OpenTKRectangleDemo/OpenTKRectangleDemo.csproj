@@ -12,9 +12,9 @@
   </ItemGroup>
 
 
-  <ItemGroup>
-    <Compile Include="MathLib\Vector3D.cs" />
-    <Compile Include="MathLib\Matrix4x4D.cs" />
-  </ItemGroup>
+<ItemGroup>
+  <Compile Include="MathLib\Vector3D.cs" />
+  <Compile Include="MathLib\Matrix4x4D.cs" />
+</ItemGroup>
 
 </Project>
