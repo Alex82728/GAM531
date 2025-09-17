@@ -10,11 +10,4 @@
   <ItemGroup>
     <PackageReference Include="OpenTK" Version="4.9.4" />
   </ItemGroup>
-
-
-<ItemGroup>
-  <Compile Include="MathLib\Vector3D.cs" />
-  <Compile Include="MathLib\Matrix4x4D.cs" />
-</ItemGroup>
-
 </Project>
