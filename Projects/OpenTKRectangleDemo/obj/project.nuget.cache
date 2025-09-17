@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8U5r6pCRAB5PBi7hnjKL0yH13supTa1UayQ2Fe5/pst5DHZ+60Qt1j1mRPTMMXM8xLvGXs+AkZLf8o1oVWxXJg==",
+  "dgSpecHash": "Ed2Ckgs4PjOw6HVyK1rtm4ceGijStqk8r5Ri8HEwHkuIMjRXARSyn66pRluFWA/ojvgUW5/scLia8pQAZh665w==",
   "success": true,
-  "projectFilePath": "C:\\GAM531\\OpenTKRectangleDemo\\OpenTKRectangleDemo.csproj",
+  "projectFilePath": "C:\\GAM531\\Projects\\OpenTKRectangleDemo\\OpenTKRectangleDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexs\\.nuget\\packages\\opentk\\4.9.4\\opentk.4.9.4.nupkg.sha512",
     "C:\\Users\\alexs\\.nuget\\packages\\opentk.audio.openal\\4.9.4\\opentk.audio.openal.4.9.4.nupkg.sha512",

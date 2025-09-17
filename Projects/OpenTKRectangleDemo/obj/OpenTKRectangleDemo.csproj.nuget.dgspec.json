@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GAM531\\OpenTKRectangleDemo\\OpenTKRectangleDemo.csproj": {}
+    "C:\\GAM531\\Projects\\OpenTKRectangleDemo\\OpenTKRectangleDemo.csproj": {}
   },
   "projects": {
-    "C:\\GAM531\\OpenTKRectangleDemo\\OpenTKRectangleDemo.csproj": {
+    "C:\\GAM531\\Projects\\OpenTKRectangleDemo\\OpenTKRectangleDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GAM531\\OpenTKRectangleDemo\\OpenTKRectangleDemo.csproj",
+        "projectUniqueName": "C:\\GAM531\\Projects\\OpenTKRectangleDemo\\OpenTKRectangleDemo.csproj",
         "projectName": "OpenTKRectangleDemo",
-        "projectPath": "C:\\GAM531\\OpenTKRectangleDemo\\OpenTKRectangleDemo.csproj",
+        "projectPath": "C:\\GAM531\\Projects\\OpenTKRectangleDemo\\OpenTKRectangleDemo.csproj",
         "packagesPath": "C:\\Users\\alexs\\.nuget\\packages\\",
-        "outputPath": "C:\\GAM531\\OpenTKRectangleDemo\\obj\\",
+        "outputPath": "C:\\GAM531\\Projects\\OpenTKRectangleDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexs\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -3,6 +3,7 @@ using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.Common;
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
+using OpenTKRectangleDemo.MathLib; 
 
 namespace OpenTKRectangleDemo
 {
@@ -15,18 +16,13 @@ namespace OpenTKRectangleDemo
 
         private readonly float[] _vertices =
         {
-            // Positions (X, Y, Z)
-            -0.5f, -0.5f, 0.0f, // Bottom-left
-             0.5f, -0.5f, 0.0f, // Bottom-right
-             0.5f,  0.5f, 0.0f, // Top-right
-            -0.5f,  0.5f, 0.0f  // Top-left
+            -0.5f, -0.5f, 0.0f,
+             0.5f, -0.5f, 0.0f,
+             0.5f,  0.5f, 0.0f,
+            -0.5f,  0.5f, 0.0f
         };
 
-        private readonly uint[] _indices =
-        {
-            0, 1, 2, // First triangle
-            2, 3, 0  // Second triangle
-        };
+        private readonly uint[] _indices = { 0, 1, 2, 2, 3, 0 };
 
         public Game(GameWindowSettings gws, NativeWindowSettings nws) : base(gws, nws) { }
 
@@ -47,7 +43,6 @@ namespace OpenTKRectangleDemo
             GL.BindBuffer(BufferTarget.ElementArrayBuffer, _ebo);
             GL.BufferData(BufferTarget.ElementArrayBuffer, _indices.Length * sizeof(uint), _indices, BufferUsageHint.StaticDraw);
 
-            // Shader sources
             string vertexShaderSource = @"
                 #version 330 core
                 layout(location = 0) in vec3 aPosition;
@@ -62,11 +57,10 @@ namespace OpenTKRectangleDemo
                 out vec4 FragColor;
                 void main()
                 {
-                    FragColor = vec4(1.0, 0.2, 0.2, 1.0); // Red rectangle
+                    FragColor = vec4(1.0, 0.2, 0.2, 1.0);
                 }
             ";
 
-            // Compile shaders
             int vertexShader = GL.CreateShader(ShaderType.VertexShader);
             GL.ShaderSource(vertexShader, vertexShaderSource);
             GL.CompileShader(vertexShader);
@@ -75,7 +69,6 @@ namespace OpenTKRectangleDemo
             GL.ShaderSource(fragmentShader, fragmentShaderSource);
             GL.CompileShader(fragmentShader);
 
-            // Link shaders into a program
             _shaderProgram = GL.CreateProgram();
             GL.AttachShader(_shaderProgram, vertexShader);
             GL.AttachShader(_shaderProgram, fragmentShader);
@@ -116,6 +109,29 @@ namespace OpenTKRectangleDemo
     {
         private static void Main(string[] args)
         {
+            // --- DEMONSTRATE VECTOR OPERATIONS ---
+            Console.WriteLine("=== Vector Operations ===");
+            var v1 = new Vector3D(1, 2, 3);
+            var v2 = new Vector3D(4, 5, 6);
+
+            Console.WriteLine($"v1 = {v1}");
+            Console.WriteLine($"v2 = {v2}");
+            Console.WriteLine($"v1 + v2 = {v1 + v2}");
+            Console.WriteLine($"v1 - v2 = {v1 - v2}");
+            Console.WriteLine($"Dot(v1, v2) = {Vector3D.Dot(v1, v2)}");
+            Console.WriteLine($"Cross(v1, v2) = {Vector3D.Cross(v1, v2)}");
+
+            // --- DEMONSTRATE MATRIX OPERATIONS ---
+            Console.WriteLine("\n=== Matrix Operations ===");
+            var scaleMatrix = Matrix4x4D.CreateScale(2.0, 2.0, 2.0);
+            var rotationMatrix = Matrix4x4D.CreateRotationZ(Math.PI / 4); // 45° rotation around Z-axis
+            var transformMatrix = scaleMatrix * rotationMatrix;
+
+            var transformedVector = transformMatrix * v1;
+            Console.WriteLine($"Original Vector: {v1}");
+            Console.WriteLine($"After Scaling + Rotation: {transformedVector}");
+
+            // --- RUN THE WINDOW ---
             var gws = GameWindowSettings.Default;
             var nws = new NativeWindowSettings()
             {
