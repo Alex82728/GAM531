@@ -19,4 +19,5 @@ The 3D cube is rendered using OpenGL through OpenTK:
 5. **Drawing:** `GL.DrawElements` draws the cube each frame.
 
 ## Screenshot
-![Cube Screenshot](screenshot.png)
+![Cube Screenshot](Screenshot 2025-09-23 223758.png)
+
