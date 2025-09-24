@@ -1,7 +1,7 @@
 # OpenTKCubeDemo
 
 ## GitHub Repository
-[Link to repository](https://github.com/Alex82728/GAM531/tree/main/Projects/OpenTKCubeDemo)
+[Link to repository](https://github.com/Alex82728/GAM531/tree/main/Projects/OpenTKCubeDemo/OpenTKCubeDemo)
 
 ## Library Used
 This project uses **OpenTK** (Open Toolkit Library) for 3D graphics rendering in C#.
