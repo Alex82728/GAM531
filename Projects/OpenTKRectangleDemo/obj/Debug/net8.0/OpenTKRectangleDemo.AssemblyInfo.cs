@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenTKRectangleDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d82a3917efb60e0ebf9967a2fa989c16f523f8f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d52f5705437411f49903b5d369f40ae4735e4d92")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenTKRectangleDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenTKRectangleDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
