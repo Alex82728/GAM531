@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "awS/gEb6GaDSQpqKUk5IbCjqluKjS9+EZvAfAoTA8QYE0Y8iuSNRMU1OTb385oYD9ljjGb2OG7TRPO2uxe52Zw==",
+  "success": true,
+  "projectFilePath": "C:\\GAM531\\Projects\\OpenTKCubeDemo\\OpenTKCubeDemo\\OpenTKCubeDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexs\\.nuget\\packages\\opentk\\4.7.6\\opentk.4.7.6.nupkg.sha512",
+    "C:\\Users\\alexs\\.nuget\\packages\\opentk.compute\\4.7.6\\opentk.compute.4.7.6.nupkg.sha512",
+    "C:\\Users\\alexs\\.nuget\\packages\\opentk.core\\4.7.6\\opentk.core.4.7.6.nupkg.sha512",
+    "C:\\Users\\alexs\\.nuget\\packages\\opentk.graphics\\4.7.6\\opentk.graphics.4.7.6.nupkg.sha512",
+    "C:\\Users\\alexs\\.nuget\\packages\\opentk.input\\4.7.6\\opentk.input.4.7.6.nupkg.sha512",
+    "C:\\Users\\alexs\\.nuget\\packages\\opentk.mathematics\\4.7.6\\opentk.mathematics.4.7.6.nupkg.sha512",
+    "C:\\Users\\alexs\\.nuget\\packages\\opentk.openal\\4.7.6\\opentk.openal.4.7.6.nupkg.sha512",
+    "C:\\Users\\alexs\\.nuget\\packages\\opentk.redist.glfw\\3.3.8.30\\opentk.redist.glfw.3.3.8.30.nupkg.sha512",
+    "C:\\Users\\alexs\\.nuget\\packages\\opentk.windowing.common\\4.7.6\\opentk.windowing.common.4.7.6.nupkg.sha512",
+    "C:\\Users\\alexs\\.nuget\\packages\\opentk.windowing.desktop\\4.7.6\\opentk.windowing.desktop.4.7.6.nupkg.sha512",
+    "C:\\Users\\alexs\\.nuget\\packages\\opentk.windowing.graphicslibraryframework\\4.7.6\\opentk.windowing.graphicslibraryframework.4.7.6.nupkg.sha512",
+    "C:\\Users\\alexs\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
