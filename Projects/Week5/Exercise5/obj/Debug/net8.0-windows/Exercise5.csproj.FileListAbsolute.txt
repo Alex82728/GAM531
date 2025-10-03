@@ -1,0 +1,15 @@
+C:\GAM531\Projects\Week5\Exercise5\bin\Debug\net8.0-windows\Exercise5.exe
+C:\GAM531\Projects\Week5\Exercise5\bin\Debug\net8.0-windows\Exercise5.deps.json
+C:\GAM531\Projects\Week5\Exercise5\bin\Debug\net8.0-windows\Exercise5.runtimeconfig.json
+C:\GAM531\Projects\Week5\Exercise5\bin\Debug\net8.0-windows\Exercise5.dll
+C:\GAM531\Projects\Week5\Exercise5\bin\Debug\net8.0-windows\Exercise5.pdb
+C:\GAM531\Projects\Week5\Exercise5\obj\Debug\net8.0-windows\Exercise5.GeneratedMSBuildEditorConfig.editorconfig
+C:\GAM531\Projects\Week5\Exercise5\obj\Debug\net8.0-windows\Exercise5.AssemblyInfoInputs.cache
+C:\GAM531\Projects\Week5\Exercise5\obj\Debug\net8.0-windows\Exercise5.AssemblyInfo.cs
+C:\GAM531\Projects\Week5\Exercise5\obj\Debug\net8.0-windows\Exercise5.csproj.CoreCompileInputs.cache
+C:\GAM531\Projects\Week5\Exercise5\obj\Debug\net8.0-windows\Exercise5.sourcelink.json
+C:\GAM531\Projects\Week5\Exercise5\obj\Debug\net8.0-windows\Exercise5.dll
+C:\GAM531\Projects\Week5\Exercise5\obj\Debug\net8.0-windows\refint\Exercise5.dll
+C:\GAM531\Projects\Week5\Exercise5\obj\Debug\net8.0-windows\Exercise5.pdb
+C:\GAM531\Projects\Week5\Exercise5\obj\Debug\net8.0-windows\Exercise5.genruntimeconfig.cache
+C:\GAM531\Projects\Week5\Exercise5\obj\Debug\net8.0-windows\ref\Exercise5.dll

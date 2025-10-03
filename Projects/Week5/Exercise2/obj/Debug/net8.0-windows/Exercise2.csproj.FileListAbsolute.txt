@@ -1,0 +1,15 @@
+C:\GAM531\Projects\Week5\Exercise2\bin\Debug\net8.0-windows\Exercise2.exe
+C:\GAM531\Projects\Week5\Exercise2\bin\Debug\net8.0-windows\Exercise2.deps.json
+C:\GAM531\Projects\Week5\Exercise2\bin\Debug\net8.0-windows\Exercise2.runtimeconfig.json
+C:\GAM531\Projects\Week5\Exercise2\bin\Debug\net8.0-windows\Exercise2.dll
+C:\GAM531\Projects\Week5\Exercise2\bin\Debug\net8.0-windows\Exercise2.pdb
+C:\GAM531\Projects\Week5\Exercise2\obj\Debug\net8.0-windows\Exercise2.GeneratedMSBuildEditorConfig.editorconfig
+C:\GAM531\Projects\Week5\Exercise2\obj\Debug\net8.0-windows\Exercise2.AssemblyInfoInputs.cache
+C:\GAM531\Projects\Week5\Exercise2\obj\Debug\net8.0-windows\Exercise2.AssemblyInfo.cs
+C:\GAM531\Projects\Week5\Exercise2\obj\Debug\net8.0-windows\Exercise2.csproj.CoreCompileInputs.cache
+C:\GAM531\Projects\Week5\Exercise2\obj\Debug\net8.0-windows\Exercise2.sourcelink.json
+C:\GAM531\Projects\Week5\Exercise2\obj\Debug\net8.0-windows\Exercise2.dll
+C:\GAM531\Projects\Week5\Exercise2\obj\Debug\net8.0-windows\refint\Exercise2.dll
+C:\GAM531\Projects\Week5\Exercise2\obj\Debug\net8.0-windows\Exercise2.pdb
+C:\GAM531\Projects\Week5\Exercise2\obj\Debug\net8.0-windows\Exercise2.genruntimeconfig.cache
+C:\GAM531\Projects\Week5\Exercise2\obj\Debug\net8.0-windows\ref\Exercise2.dll
