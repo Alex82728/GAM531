@@ -1,0 +1,5 @@
+For this assignment, I made a 3D cube in OpenTK and added the Phong lighting model to make it look more realistic. The lighting has ambient, diffuse, and specular parts, and I used one point light at position (2, 2, 2). When the cube rotates, you can see the light reflect and create shiny spots which shows the specular effect working.
+
+The hardest part was getting the normals to work right because at first, the lighting didn’t move properly when the cube rotated. I had to fix how the normals were being passed and transformed in the vertex shader. Once I did that, everything looked good. I also had to make sure the shader uniforms were linked correctly between the C# code and GLSL.
+
+Overall, this helped me understand how the Phong lighting model works and how each part (ambient, diffuse, specular) affects how an object looks in 3D. The result is a cube with smooth lighting that changes when it moves or when the camera changes.
