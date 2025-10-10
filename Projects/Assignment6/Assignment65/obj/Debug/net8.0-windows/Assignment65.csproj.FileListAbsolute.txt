@@ -1,0 +1,6 @@
+C:\GAM531\Projects\Assignment6\Assignment65\obj\Debug\net8.0-windows\Assignment65.csproj.AssemblyReference.cache
+C:\GAM531\Projects\Assignment6\Assignment65\obj\Debug\net8.0-windows\Assignment65.GeneratedMSBuildEditorConfig.editorconfig
+C:\GAM531\Projects\Assignment6\Assignment65\obj\Debug\net8.0-windows\Assignment65.AssemblyInfoInputs.cache
+C:\GAM531\Projects\Assignment6\Assignment65\obj\Debug\net8.0-windows\Assignment65.AssemblyInfo.cs
+C:\GAM531\Projects\Assignment6\Assignment65\obj\Debug\net8.0-windows\Assignment65.csproj.CoreCompileInputs.cache
+C:\GAM531\Projects\Assignment6\Assignment65\obj\Debug\net8.0-windows\Assignment65.sourcelink.json
