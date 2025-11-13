@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "FUMcKMPEphidSRf/+nUmO+jbVPNAkS09AH2wXAkDdprNJQby+Z+FCxgNOGcsJcS9U1z2AnwP7BTYkV0nE8rJDQ==",
+  "success": true,
+  "projectFilePath": "C:\\GAM531\\Projects\\2D Collision Detection\\CollisionBreakout\\CollisionBreakout\\CollisionBreakout.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexs\\.nuget\\packages\\raylib-cs\\6.0.0\\raylib-cs.6.0.0.nupkg.sha512",
+    "C:\\Users\\alexs\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CollisionBreakout depends on Raylib-cs (>= 5.0.0.2) but Raylib-cs 5.0.0.2 was not found. An approximate best match of Raylib-cs 6.0.0 was resolved.",
+      "libraryId": "Raylib-cs",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+2D Collision Detection – Reflection
+
+In this project, I learned how basic 2D collision detection works and
+applied it by building a simple Breakout-style prototype using Raylib.
+When I started, I didn’t really understand how games constantly check
+collisions every frame, but after going through the LearnOpenGL tutorial
+and implementing everything step by step, the logic made a lot more
+sense. Collision detection is basically figuring out if two objects
+overlap so the game can respond, like bouncing a ball, breaking a brick,
+or blocking movement. Even though game objects can have detailed shapes,
+2D games usually use simple shapes like AXIS-ALIGNED BOUNDING BOXES
+(AABBs) or circles because they’re way faster and easier to work with.
+
+From the research part, I learned the difference between AABB–AABB
+collisions and AABB–Circle collisions. AABB–AABB is straightforward
+because all you are doing is checking if two rectangles overlap on both
+the x-axis and the y-axis. If they overlap on both at the same time,
+then they are colliding. The pseudocode looks like this:
+
+AABB–AABB pseudocode:
+
+    function CheckAABBCollision(a, b):
+        aLeft = a.x
+        aRight = a.x + a.width
+        aTop = a.y
+        aBottom = a.y + a.height
+
+        bLeft = b.x
+        bRight = b.x + b.width
+        bTop = b.y
+        bBottom = b.y + b.height
+
+        overlapX = (aRight >= bLeft) AND (aLeft <= bRight)
+        overlapY = (aBottom >= bTop) AND (aTop <= bBottom)
+
+        return overlapX AND overlapY
+
+AABB–Circle takes a different approach. Instead of comparing edges, you
+find the closest point on the rectangle to the circle’s center using a
+clamp function. After that, you check whether the distance between that
+point and the circle’s center is less than or equal to the radius. If it
+is, then the circle and the rectangle are colliding. The clamp function
+is important because it forces values to stay within the rectangle’s
+boundaries so the distance remains accurate.
+
+AABB–Circle pseudocode:
+
+    function CheckCircleAABBCollision(circle, rect):
+        circleX = circle.centerX
+        circleY = circle.centerY
+
+        rectLeft = rect.x
+        rectRight = rect.x + rect.width
+        rectTop = rect.y
+        rectBottom = rect.y + rect.height
+
+        closestX = clamp(circleX, rectLeft, rectRight)
+        closestY = clamp(circleY, rectTop, rectBottom)
+
+        dx = circleX - closestX
+        dy = circleY - closestY
+
+        distanceSquared = dx*dx + dy*dy
+
+        return distanceSquared <= circle.radius * circle.radius
+
+For the implementation, I created a Breakout-style game where the player
+controls a paddle at the bottom and a ball bounces around breaking
+bricks. I used rectangles for the paddle and bricks, and a circle for
+the ball, and I implemented both collision types from the tutorial. I
+also added keyboard controls and a simple brick layout. When the ball
+hits a brick, it gets marked as destroyed and disappears. Seeing the
+collision response in real time helped me understand the math much
+better.
+
+During testing, I tried different ball sizes, speeds, and brick
+dimensions. Smaller balls sometimes clipped into bricks before
+collisions registered, while bigger balls made the game slightly easier
+but less accurate visually. I also noticed
+strange bounces around corners or when hitting more than one brick at
+once. These issues helped me understand the limits of basic collision
+detection and why advanced games use continuous collision detection or
+more detailed shapes.
+
+Overall, this project helped me understand collision detection on both
+the conceptual and practical level. I learned why simple shapes are
+used, how clamping works to find the closest point for Circle–AABB
+detection, and why certain visual glitches happen. If I continued this
+project, I would improve the bounce physics, add more levels, and
+possibly use continuous collision detection to avoid tunneling. This
+assignment gave me a strong foundation in collision logic and made me
+more confident working with game math.
+
+References: 1. Joey de Vries. “Collision Detection – LearnOpenGL.”
+https://learnopengl.com/In-Practice/2D-Game/Collisions/Collision-detection
+2. Raylib-cs Documentation. https://github.com/ChrisDill/Raylib-cs 3.
+Raylib Official Documentation. https://www.raylib.com/
